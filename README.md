@@ -148,6 +148,7 @@ make kernel-k5
 5) To reset everything
 ```
 make clean-k5
+```
 
 ## Kernel Installation for "Labrador Core v3.x" (64bits)
 After a successful build, the kernel should be avaliable at "output-k7" folder.
@@ -214,6 +215,7 @@ $ sudo cp output-k5/kernel.dtb $BOOT/
 ```
 >Note1: $ROOTFS must be replaced by the complete directory path of your target
 system's root mounting point.
+
 >Note2: $BOOT must be replaced by the complete directory path of your target
 BOOT mounting point.
 
